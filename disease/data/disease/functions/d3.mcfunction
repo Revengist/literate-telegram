@@ -4,7 +4,7 @@ effect give @e[tag=D3] minecraft:blindness 1000000 0 true
 effect give @e[tag=D3] minecraft:nausea 1000000 0 true
 effect give @e[tag=D3] minecraft:wither 1000000 50 true
 execute at @e[tag=D3] run tag @e[distance=..10,tag=I1] add D2
-execute at @e[tag=D3] run scoreboard players add @e[sort=nearest,limit=2] disease_infect 4999
+execute at @e[tag=D3] run scoreboard players add @e[sort=nearest,limit=2] disease_infect 3999
 tag @e[tag=D3] remove D1
 tag @e[tag=D3] remove D2
 tag @e[tag=D3] remove I1
